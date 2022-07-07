@@ -1,0 +1,204 @@
+body {
+    background: url(/math/2.jpg);
+    background-size: cover;
+}
+
+button,
+input {
+    font-family: 'Righteous', cursive;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+}
+
+.nav {
+    background: #000;
+    height: 65px;
+    position: relative;
+    width: 100%;
+    top: -24px;
+}
+
+.kks {
+    font-size: 30px;
+    left: 18px;
+    top: 26px;
+    color: #ff1867;
+}
+
+.home {
+    position: relative;
+    text-decoration: none;
+    font-size: 26px;
+    display: inline;
+    width: 50px;
+    padding: 27px;
+    left: 348px;
+    top: -50px;
+    color: #9fa5b5;
+}
+
+.home:hover {
+    position: relative;
+    width: 180px;
+    top: -15px;
+    font-size: 22px;
+    color: #fff;
+    background: #2196f3;
+    transition: 1s;
+    box-shadow: 0 0 30px #2196f3;
+    border-radius: 30px;
+}
+
+ul {
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #0c0d0e;
+}
+
+h1 {
+    font-size: 85px;
+    position: relative;
+    top: 91px;
+    left: 410px;
+    color: #fff;
+}
+
+#stu {
+    animation-name: kayumkhan;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+.app-form-control:focus {
+    color: #ff1867;
+}
+
+@keyframes kayumkhan {
+    from {
+        font-size: 36px;
+        transition: 2s;
+    }
+    to {
+        font-size: 50px;
+        transition: 2s;
+    }
+}
+
+
+/*.background {
+    position: relative;
+    min-height: 100vh;
+    top: -100px;
+}
+*/
+
+.container {
+    flex: 0 1 700px;
+    margin: auto;
+    padding: 10px;
+}
+
+.screen {
+    position: relative;
+    background: #2c2d2d;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #2196f3;
+    top: 50px;
+}
+
+.screen:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    right: 20px;
+    bottom: 0;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+    z-index: -1;
+}
+
+.screen-body {
+    display: flex;
+}
+
+.screen-body-item {
+    flex: 1;
+    padding: 50px;
+}
+
+.screen-body-item.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #2196f3;
+    font-size: 36px;
+    text-transform: uppercase;
+    border-left: 4px solid #2196f3;
+    padding: 10px;
+}
+
+.app-form-group {
+    margin-bottom: 15px;
+}
+
+.app-form-group.buttons {
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.app-form-control {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #ddd;
+    font-size: 20px;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color .2s;
+}
+
+.app-form-control::placeholder {
+    color: #FFF;
+}
+
+.app-form-control:focus {
+    border-bottom-color: #ddd;
+}
+
+.app-form-button {
+    background: none;
+    border: none;
+    color: #33d9b2;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+}
+
+.app-form-button:hover {
+    color: #218c74;
+}
+
+.showdata {
+    text-align: center;
+    color: #33d9b2;
+    font-size: 1.2rem;
+    padding-top: -10px;
+    padding-bottom: 10px;
+    font-family: 'Righteous', cursive;
+}
